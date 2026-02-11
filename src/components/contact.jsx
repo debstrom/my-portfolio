@@ -1,6 +1,6 @@
-import React,{useState} from 'react';
-import { LuHome,LuUser,LuLightbulb,LuLayers, LuPhone } from "react-icons/lu";
+import { LuPhone } from "react-icons/lu";
 import emailjs from "@emailjs/browser";
+import { useState } from "react";
 
 
 const Contact = () => {
@@ -15,7 +15,7 @@ const Contact = () => {
         const templateParams={
             from_name: name,
             from_email: email,
-            to_name: 'Ankit',
+            to_name: 'Debjeet',
             message: message,
         };
         emailjs.send(SERVICE_ID , TEMPLATE_ID , templateParams , PUBLIC_KEY)

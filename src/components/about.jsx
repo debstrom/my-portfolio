@@ -1,5 +1,4 @@
-import React from 'react';
-import { LuHome,LuUser,LuLightbulb,LuLayers, LuPhone,LuLanguages } from "react-icons/lu";
+import {LuUser } from "react-icons/lu";
 import { GoDot } from "react-icons/go";
 
 const about = () => {

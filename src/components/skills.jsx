@@ -1,12 +1,11 @@
-import React from 'react';
-import { LuHome,LuUser,LuLightbulb,LuLayers, LuPhone } from "react-icons/lu";
+import { LuLightbulb } from "react-icons/lu";
 import bash from './icons/bash.svg';
 import docker from './icons/docker.svg';
 import k8s from './icons/kubernetes.svg';
 import selenium from './icons/selenium.svg';
 import tailwind from './icons/tailwind.svg';
 import mongo from './icons/mongodb.svg';
-import { DotLottiePlayer, Controls } from '@dotlottie/react-player';
+import { DotLottiePlayer } from '@dotlottie/react-player';
 import '@dotlottie/react-player/dist/index.css';   
 import Animation from './lottiefiles/skills.lottie'; 
 
