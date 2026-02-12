@@ -1,4 +1,4 @@
-import { FaXTwitter } from "react-icons/fa6";
+import { FaWhatsapp, FaXTwitter } from "react-icons/fa6";
 import { LuLinkedin,LuInstagram } from "react-icons/lu";
 import Resume from './resume';
 import Frontpageanimation from './frontpageanimation';
@@ -23,14 +23,17 @@ const content = () => {
          </h1>
       </div>
       <div className="flex pt-4 space-x-2.5 w-full md:pt-8 md:pb-8">
-        <a className='pl-2 h-10 w-10 text-center border pt-2 rounded-md border-black hover:bg-[#c580f023] transition-all duration-500 active:bg-zinc-300' href="https://x.com/debstrom_">
-          <FaXTwitter size={23} />
-        </a>
-        <a className='pl-2 h-10 w-10 text-center border pt-2 rounded-md border-black hover:bg-[#c580f023] transition-all duration-500 active:bg-zinc-300' href="https://www.linkedin.com/in/debjeet-baral/">
+        <a className='pl-2 h-10 w-10 text-center border pt-2 rounded-md border-black hover:bg-[#c580f023] transition-all duration-500 active:bg-zinc-300' href="https://www.linkedin.com/in/debjeet-baral/" target="_blank">
           <LuLinkedin size={23} />
         </a>
-        <a className='pl-2 h-10 w-10 text-center border pt-2 rounded-md border-black hover:bg-[#c580f023] transition-all duration-500 active:bg-zinc-300' href="https://www.instagram.com/ufound.bappy">
+        <a className='pl-2 h-10 w-10 text-center border pt-2 rounded-md border-black hover:bg-[#c580f023] transition-all duration-500 active:bg-zinc-300' href="https://www.instagram.com/ufound.bappy" target="_blank">
           <LuInstagram size={23} />
+        </a>
+        <a className='pl-2 h-10 w-10 text-center border pt-2 rounded-md border-black hover:bg-[#c580f023] transition-all duration-500 active:bg-zinc-300' href="https://x.com/debstrom_" target="_blank">
+          <FaXTwitter size={23} />
+        </a>
+        <a className='pl-2 h-10 w-10 text-center border pt-2 rounded-md border-black hover:bg-[#c580f023] transition-all duration-500 active:bg-zinc-300' href="https://wa.me/qr/76JCOK3XQJSUD1" target="_blank">
+          <FaWhatsapp size={23} />
         </a>
       </div>
       <div>
